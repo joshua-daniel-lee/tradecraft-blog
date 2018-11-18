@@ -3,9 +3,8 @@ import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Links from "./components/Links";
 import About from "./components/About";
-import Footer from "./components/Footer";
+import Blog from "./components/Blog";
 
 class App extends Component {
   render() {
@@ -14,9 +13,8 @@ class App extends Component {
         <div className="App">
           <Header />
           <Hero />
-          <Links />
           <About />
-          <Footer />
+          <Blog />
         </div>
       </BrowserRouter>
     );

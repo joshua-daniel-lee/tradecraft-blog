@@ -3,7 +3,7 @@ import "../App.css";
 
 class Hero extends Component {
   render() {
-    return <div className="Hero">Hero</div>;
+    return <div className="Hero" />;
   }
 }
 

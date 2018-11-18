@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import "../App.css";
 
-class About extends Component {
+class Introduction extends Component {
   render() {
     return (
-      <div className="About">
+      <div className="Introduction">
         <div className="section container">
           <div className="card z-depth-3">
-            <div className="card-content">About</div>
+            <div className="card-content">Introduction</div>
           </div>
         </div>
       </div>
@@ -15,4 +14,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Introduction;

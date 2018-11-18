@@ -5,10 +5,10 @@ import "../App.css";
 class Header extends Component {
   render() {
     return (
-      <nav className="nav-wrapper blue-grey darken-4">
+      <nav className=" Header nav-wrapper blue-grey darken-4">
         <div className="container">
           <Link to="/" className="brand-logo">
-            Tradecraft Blog
+            tradecraft.info
           </Link>
         </div>
       </nav>

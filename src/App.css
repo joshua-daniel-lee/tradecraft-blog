@@ -1,1 +1,23 @@
 /* Application Styles */
+.App {
+  display: grid;
+  grid-template-columns: 1fr 35vw;
+  grid-template-rows: auto;
+}
+.About {
+  grid-column: 2;
+  grid-row: 3;
+  height: 25vh;
+}
+.Blog {
+  grid-column: 1 / 2;
+  grid-row: 3;
+  height: 100vh;
+}
+.Header {
+  grid-column: 1 / 6;
+}
+.Hero {
+  grid-column: 1 / 6;
+  height: 30vh;
+}
