@@ -7,13 +7,28 @@ class About extends Component {
     return (
       <div className="About">
         <div className="section container">
-          <div className="card z-depth-4">
-            <div className="card-content">About</div>
+          <div className="card darken-4 z-depth-4">
+            <div className="card-content">
+              <blockquote>Check out my work:</blockquote>
+              <div className="content">
+                <ul>
+                  <li>
+                    <a
+                      href="https://github.com/joshualeehawaii"
+                      target="_blank"
+                    >
+                      Github
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://about.me/joshuadaniellee" target="_blank">
+                      About.me
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="dates center">
-          {" "}
-          <Link to="/">Introduction</Link>
         </div>
       </div>
     );

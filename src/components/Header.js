@@ -5,7 +5,7 @@ import "../App.css";
 class Header extends Component {
   render() {
     return (
-      <nav className=" Header nav-wrapper blue-grey darken-4">
+      <nav className=" Header nav-wrapper grey darken-4">
         <div className="container">
           <Link to="/" className="brand-logo">
             tradecraft.info
